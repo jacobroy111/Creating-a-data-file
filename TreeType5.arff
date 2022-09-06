@@ -1,0 +1,24 @@
+@relation TreeType5
+
+@attribute Height {short,medium,tall}
+@attribute WoodType {soft,hard}
+@attribute BarkColor {brown,white,grey}
+@attribute TrunkWidth {thin,medium,thick}
+@attribute TreeType {maple,birch,spruce,cedar}
+
+@data
+medium,soft,white,thin,birch
+tall,soft,white,medium,birch
+medium,soft,white,medium,birch
+tall,hard,brown,medium,maple
+tall,hard,brown,thick,maple
+medium,hard,brown,thin,maple
+short,hard,brown,thin,maple
+short,soft,brown,thin,spruce
+short,soft,brown,medium,spruce
+medium,soft,brown,thick,spruce
+medium,soft,brown,thin,spruce
+tall,hard,brown,thick,cedar
+tall,hard,brown,thick,cedar
+tall,hard,brown,medium,cedar
+short,hard,brown,thin,cedar
